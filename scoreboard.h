@@ -1,0 +1,26 @@
+class team
+{
+  
+
+
+
+
+
+
+
+
+
+};
+
+class scoreboard
+{
+
+
+
+
+
+
+
+};
+
+

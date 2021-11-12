@@ -1,0 +1,162 @@
+Unit Assignment 4 – More Object-Oriented Coding Practice
+
+Using C++ Object Oriented classes to create a Football Scoreboard. Is not a Scoreboard a Menu?
+
+ 
+
+Rubric:
+
+Code 70 points: Zip (or online IDE Share URL) file of the entire solution Folder including GitHub Share URL. 
+
+ 
+
+Version Control and Git Hub Requirement: 
+Create a GitHub Account (if needed at)  https://github.com/ (Links to an external site.)
+
+The Repl.it IDE is recommended: https://replit.com/new/cpp (Links to an external site.)
+
+Using the "Version Control" button on the left in the Repl.it IDE, connect the current program to your GitHub Account 
+Save commit, and keep track of your project as you work on this homework 
+
+Note your GitHub URL as you will need to supply this to Dr_T with your code share link, for instance, this is my link:  https://github.com/drtmcmillanite (Links to an external site.)
+
+How to create a Repl.it Share URL for my grading and your submission in the "Comments" area, (see: https://www.dropbox.com/s/s5gmt9i57d3gkgg/DrTHowToCreateReplShareURLforGradingTCCE.mp4?dl=0 (Links to an external site.))
+
+Save commit, and keep track of your project as you work on this homework 
+ (Links to an external site.)
+
+Foundation Research:
+
+ 
+
+Study Live Lecture 4 (Download and Save here) (Links to an external site.)  - Repl.it Dr_T sample Scoreboard code: https://repl.it/@TysonMcMillan/SoccerScoreboardDrTCPPCOSC-1437 (Links to an external site.)
+
+Study Closely the Gaddis Rectangle Class and Rectangle Instance in:Use the examples for inspiration on how to approach solving the following item.
+
+COSC_1437_NOTES/ 8_Week_Agendas/Week2_8week_Agenda/Gaddis_Rectangle_Class/Rectangle_Class.cpp
+COSC_1437_NOTES/ 8_Week_Agendas/Week2_8week_Agenda/Gaddis_Rectangle_Class/Rectangle_Instance.cpp
+Look at this live implementation of the Rectangle Code per Gaddis. Scope Resolution Operator method:
+https://repl.it/@TysonMcMillan/DRTRectangleClassPerGaddis (Links to an external site.)
+
+ 
+
+Look at this live alternative implementation of the Rectangle code using a more concise method of class declaration: 
+https://repl.it/@TysonMcMillan/DRTRectangleClassAlternativeMethod (Links to an external site.)
+
+ Task
+
+First, decide which method you will use for class declarations in this project Scope Resolution or alternative--either is fine, but once you commit, run with it. 
+
+Keep reading to the Need help getting started? section!!! 
+
+1.       Create a Top Level Folder called: Football_Scoreboard_YourFirstName_YourLastName to store all of the work.
+
+2.       Create a CPP within your top-level folder called: Football_Scoreboard.cpp  (or main.cpp if using an online IDE like Repl.it) 
+
+3.       In the comments, give your name credit, class, date, and teacher.
+
+4.       Your objective is to create C++ program that keeps track of various objects and variables in a Football Scoreboard.
+
+ 
+
+ 
+
+
+
+5.      
+
+ Create a C++ Object Oriented Class called Team. A team has member variables:
+
+*        Name
+
+*        Coach_Name
+
+*        Home_City
+
+*        Home_Status (bool true or false; if true, Home Team, if false, visitor)
+
+*        Score (holding the current score)
+
+*        Timeout_Count
+
+6.       Write the appropriate setter and getter member functions for the Team Class.
+
+          Create a class called Scoreboard.
+
+          Write the appropriate member variables, setter functions, and getter functions to make the scoreboard work.
+
+
+In int main()
+
+*        Create 2 instances of the Team Class (Objects) (any two teams you like, any home team set you like)
+
+*        Show the scoreboard with the various values initialized to zero
+
+*        Make the scoreboard functional and able to be updated with your input from the keyboard.
+
+Need help getting started?
+
+See my extra hints for this same program written in Java. You will of, course, have to translate the code to C++ and fill in the functionality that I did not write.
+
+This code assumes 1 Scoreboard instance and 2 Team instances. 
+
+Note:
+
+Install the free tool at BlueJ.org 
+"Direct" Download, Extract the full contents of the zip file" 
+Open the BlueJ Package 
+Right Click and Run the Main.java by clicking Void Main String args
+Using setters and getters via Encapsulation to help us get to the desired goal. (Observe: Scoreboard.java, Team.java, Main.java)
+https://www.dropbox.com/sh/hl5nudpbcg8uayw/AAB2aXg8N7cpRG6zIH6gf0Ufa?dl=0 (Links to an external site.)
+
+ 
+
+  Tier 1 Extra challenges: 
+
+*        Extra Challenge: Show the Team Name and City on your Scoreboard.
+
+      Extra Challenge: Define the Classes in a .h file, and refer to them in int main(). This is more clean design. 
+
+      Extra Challenge: Any thoughts on how to get the clock to work, set, reset, start, stop...?  
+
+ 
+
+  Tier 2 Extra challenges:  
+
++3 Extra Credit if Team T1 and Team T2 are members of the Scoreboard Class.
+
+Can we unify the Scoreboard class to have Team classes as members? A great idea from McMillanite, Joshua Bair. 
+
+See perhaps: http://www.cplusplus.com/ forum/general/67828/ (Links to an external site.)
+ 
+I want to be able to declare statements in int main() like so...
+
+Scoreboard s1; //assuming T1 and T2 as public members
+
+s1.T1.setName("Dallas Cowboys"); 
+s1.T2.setName("Houston Texans");   
+
+      Scoreboard s1; //assuming T1 and T2 as private members passed as parameters accessed with setters and getters
+
+s1.Team1().setName("Dallas Cowboys"); 
+s1.Team2().setName("Houston Texans"); 
+
+----
+
+Submission Process: 
+
+In the "written submission/comments" Provide Dr_T the Live URL share of
+
+1) Repl.it share URL, and (open in new window target = _blank)
+
+2) the URL of your GitHub repository  (open in new window target = _blank)
+
+If using an IDE other than Repl.it, provide Dr_T with the zip file submission of your code.
+
+ 
+
+Or if Zipping, be sure to zip your entire top-level solution folder….
+
+ 
+
+Upload/Send: Football_Scoreboard_YourFirstName_YourLastName.zip solution 
