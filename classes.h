@@ -2,24 +2,28 @@
 class team
 {
   private:
-  class team()
-  {
-  bool home_status; // true = home false = visitor
-  int score = 0;
-  int timeouts = 4;
-  string team_name = "team_name";
-  string coach_name = "coach_name";
-  string hometown = "hometown_name";
-  }
+  class team()// default constructor
+  bool home_status;
+  int score;
+  int timeouts;
+  string team_name;
+  string coach_name;
+  string hometown;
   public:
-
-  
-  void set_home_status(bool b){home_status = b}
-  void set_score(int i){score = i}
-  void set_timeouts(int i){timeouts = i}
-  void set_team_name(string s){team_name = s}
-  void set_coach_name(string s){coach_name = s}
-  void set_hometown(string s){hometown = s}
+  {
+    bool home_status; // true = home false = visitor
+    int score = 0;
+    int timeouts = 4;
+    string team_name = "team_name";
+    string coach_name = "coach_name";
+    string hometown = "hometown_name";
+  }
+  void set_home_status(bool b){home_status = b;}
+  void set_score(int i){score = i;}
+  void set_timeouts(int i){timeouts = i;}
+  void set_team_name(string s){team_name = s;}
+  void set_coach_name(string s){coach_name = s;}
+  void set_hometown(string s){hometown = s;}
 
   bool get_home_status()const {return home_status;}
   int get_score()const {return score;}
@@ -32,19 +36,22 @@ class team
 class scoreboard
 {
   private:
-  class scoreboard()
+
+  public:
+  class scoreboard()// default constructor
   {
   int quarter = 0;
-  team team_1;
-  team team_2;
-  team_1.set_team_name(team_1);
-  team_2.set_team_name(team_2);
+  // sets up the unique defaults for team 1 or 2 which are a part of the scoreboard
+  team t1;
+  team t2;
+  t1.set_team_name("team_1");
+  t2.set_team_name("team_2");
+  t1.set_coach_name("coach_1");
+  t2.set_coach_name("coach_2");
+  t1.set_hometown("hometown_1");
+  t2.set_hometown("hometown_2");
+
   }
-  public:
-
-
-
-
 
 
 };
