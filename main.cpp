@@ -1,5 +1,5 @@
 #include <iostream>
-#include "scoreboard.h"
+#include "classes.h"
 
 
 int main() 

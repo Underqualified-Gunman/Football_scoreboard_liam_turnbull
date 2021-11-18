@@ -1,0 +1,14 @@
+menu
+
+1 team 1 name
+2 team 2 name
+3 add points to team 1
+4 add points to team 2
+5 modify time outs left for team 1
+6 modify time outs left for team 2
+7 modify quarter
+8 modify line of scrimmage
+9 
+0 
+
+// notes visualago.net
