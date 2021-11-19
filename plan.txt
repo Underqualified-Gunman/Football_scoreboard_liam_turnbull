@@ -11,4 +11,25 @@ menu
 9 
 0 
 
+
+
+scoreboard contains
+quarter
+team team 1// should be able to say scoreboard.t1.get_score to get score despite not declaring it.
+team team 2
+
+"team" consists of
+score
+timeouts
+team name
+coach name
+hometown name
+bool on whether a visitor or home team.
+
+
+
+
+
+
+
 // notes visualago.net

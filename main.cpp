@@ -5,6 +5,7 @@
 int main() 
 {
 
+scoreboard s;
 
 
 
@@ -12,4 +13,18 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
 } 
