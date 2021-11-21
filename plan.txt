@@ -26,10 +26,11 @@ coach name
 hometown name
 bool on whether a visitor or home team.
 
-
-
-
-
+   H                   v
+hometown           HOMETOWN
+ TEAM 1              TEAM 2
+   0                   0 
+COACH_NAME       COACH_NAME
 
 
 // notes visualago.net
