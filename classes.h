@@ -17,7 +17,7 @@ class team
   public:
   team()// default constructor note to self remember that def cons are just the class name after public
   {
-    bool home_status; // true = home false = visitor
+    bool home_status = true; // true = home false = visitor
     int score = 0;
     int timeouts = 4;
     string team_name = "team_name";
@@ -55,6 +55,13 @@ class scoreboard
   {
   int quarter = 0;
   // sets up the unique defaults for team 1 or 2 which are a part of the scoreboard
+  team_1.set_score(0);
+  team_2.set_score(0);
+  // investigate why t2 score is set as a semi random int
+  team_1.set_timeouts(4);
+  team_2.set_timeouts(4);// investigate the same
+  team_1.set_home_status(true);
+  team_2.set_home_status(false);
   team_1.set_team_name("team_1");
   team_2.set_team_name("team_2");
   team_1.set_coach_name("coach_1");
@@ -62,7 +69,7 @@ class scoreboard
   team_1.set_hometown("hometown_1");
   team_2.set_hometown("hometown_2");
   }
-  //internally uses team_#. externally should use t#. instead 
+  //internally uses team_#. externall should use t#. instead 
  
   //setters
   
