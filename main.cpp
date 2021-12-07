@@ -1,3 +1,11 @@
+// started november 12th 2021
+// created by liam turnbull
+// Input_Validation_Extended by drT
+// created as a class assignemnt for Tyson mcmillan at tarrant county community college
+// this assigment was to create a football scoreboard
+// was intended to flesh out our knowledge on implementing and using classes
+//
+//
 #include <iostream>
 #include "classes.h"
 #include "Input_Validation_Extended.h"
@@ -7,7 +15,7 @@ void display_scoreboard();
 
 int main() 
 {
-
+//cout << "hello world";
 display_scoreboard();
 
 
@@ -30,7 +38,8 @@ return 0;
 void display_scoreboard()
 {
 scoreboard s;
-
+int num, num2;
+num  += num2;
 //s.t2_set_score(0);
 do
 {
@@ -146,7 +155,7 @@ do
 
   << "\t\t << Team 2 >>"<<endl
   << "G. Modify Team Name"<<endl
-  << "H. Modify Hometown Name"<<endl
+  << "H. Modify Hometown Name"<< 
   << "I. Modify Coach Name"<<endl
   << "J. Modify Timeouts"<<endl
   << "K. Modify Visitor Flag"<<endl;
@@ -302,3 +311,10 @@ do
 }
 while(true);
 }
+
+
+
+
+
+
+  
